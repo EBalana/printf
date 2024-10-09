@@ -83,13 +83,13 @@ int	main()
 	ft_printf("Strings: \n");
 	ft_printf("Estamos en %d %s y esta siendo guai \n", 42, "Barcelona");
 	ft_printf("Vamos a %s el %s \n", "reventar", "cursus");
-	ft_printf("Si se puede %s, porque %s es tan maricon %c \n", \
+	ft_printf("Si se puede %s, porque %s es tan guapo %c \n", \
 	 "jodeeer", "arnau", '?');	 
  	ft_printf("\n");
 	ft_printf("Strings (printf): \n");
  	printf("Estamos en %d %s y esta siendo guai \n", 42, "Barcelona");
 	printf("Vamos a %s el %s \n", "reventar", "cursus");
-	printf("Si se puede %s, porque %s es tan maricon %c \n", \
+	printf("Si se puede %s, porque %s es tan guapo %c \n", \
 	 "jodeeer", "arnau", '?');
 
 
