@@ -11,7 +11,7 @@ RM = rm -f
 CFLAGS = -Wall -Werror -Wextra
 
 %.o: %.c Makefile ft_printf.h
-	$(CC) $(CFLAGS) -I. -c $< -o $(<:.c=.o)
+	$(CC) $(CFLAGS) -I. -c $< -o $@
 
 # Default target
 all: ${NAME}
@@ -31,3 +31,4 @@ fclean: clean
 # Rebuild the project
 re: fclean all
 
+.PONY: all clean fclean re
